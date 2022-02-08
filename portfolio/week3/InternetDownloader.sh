@@ -31,7 +31,7 @@ if [ "$mchoiceUP" = "EXIT" ];
 then
    clear
    echo "Thanks, you will be quiting now"
-   read
+   break
 exit 0
 
 
@@ -50,15 +50,13 @@ then
       if [[ -d "$mDirectory" ]];
       then 
 
-         # Allow write permision on the Directory
-         # sudo chmod -R 777 ./"$mDirectory"
-         # chown -R $USER:$USER ./"$mDirectory"
+         filename=$(eval echo $mDirectory)
 
-         #Use WGET to download the webpage
-         #wget -P /"$mDirectory"/Delete.web $mchoice
-         wget -P /"$mDirectory"/ $mchoice
+         echo $filename
 
-      else
+         wget -P $filename $mchoice
+
+       else
 
          # ask User to provide a valid Directory name
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 # calculator.sh - This is a calculator for working on two numbers
-# Author" Bimbo Bakare
+# Author: 'Bimbo Bakare
 # Date: 03Feb2022
 
 clear
@@ -10,6 +10,7 @@ blue='\033[0;34m'
 green='\033[0;32m'
 red='\033[0;31m'
 purple='\033[0;35m'
+nc='\033[0m'
 
 echo "This is a calculator for two numbers"
 
@@ -44,26 +45,25 @@ done
 
 # Switch Case to perform calculator operations
 case $choice in
-1)
-c= $(( $a + $b ))
+1)c=$(( a + b ))
 printf "Answer is : ${blue}$c${nc}%s\n"
 
 ;;
-2)
-c= $(( $a - $b ))
+2)c=$(( a - b ))
 printf "Answer is : ${green}$c${nc}%s\n"
 
 ;;
-3)
-c= $(( $a * $b ))
+3)c=$(( a * b))
 printf "Answer is : ${red}$c${nc}%s\n"
 
 ;;
-4)c= $(( $a / $b ))
+4)c=$(( a / b ))
 printf "Answer is : ${purple}$c${nc}%s\n"
 
 ;;
 esac
+
+#echo "$#"
 
 exit 0
 
