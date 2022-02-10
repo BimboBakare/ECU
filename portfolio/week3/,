@@ -1,0 +1,79 @@
+	// Place your snippets for shellscript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	{
+		"shebang": {
+			"prefix": "#",
+			"body": "#!/bin/bash",
+			"description": "Add Shebang"
+		},
+		"colorBLACK": {
+			"prefix": "BLACK",
+			"body": "black='\\033[0;30m'",
+			"description": "Colour Black"
+		},
+		"colorRED": {
+			"prefix": "RED",
+			"body": "red='\\033[0;31m'",
+			"description": "Colour Red"
+		},
+		"colorGREEN": {
+			"prefix": "GREEN",
+			"body": "green='\\033[0;32m'",
+			"description": "Colour Green"
+		},
+		"colorBROWN": {
+			"prefix": "BROWN",
+			"body": "brown='\\033[0;33m'",
+			"description": "Colour Brown"
+		},
+		"colorBLUE": {
+			"prefix": "BLUE",
+			"body": "blue='\\033[0;34m'",
+			"description": "Colour Blue"
+		},
+		"colorPURPLE": {
+			"prefix": "PURPLE",
+			"body": "purple='\\033[0;35m'",
+			"description": "Colour Purple"
+		},
+		"colorCYAN": {
+			"prefix": "CYAN",
+			"body": "cyan='\\033[0;36m'",
+			"description": "Colour Cyan"
+		},
+		"colorGREY": {
+			"prefix": "GREY",
+			"body": "grey='\\033[0;37m'",
+			"description": "Colour Grey"
+		},
+		"No Color": {
+			"prefix": "NC",
+			"body": "nc='\\033[0m'",
+			"description": "No color"
+		},
+		"Startlines": {
+			"prefix": "start",
+			"body": [
+				"#!/bin/bash",
+				"# InternetDownloader.sh - # prompts users for sitename and filename to download a website to",
+				"# Author: 'Bimbo Bakare",
+				"# Created as response to 3.5 ",
+				"# date: 05Feb2022"
+			],
+			"description": "Opening lines for bash script"
+		}
+
+
+}

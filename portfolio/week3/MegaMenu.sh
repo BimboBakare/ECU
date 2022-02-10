@@ -1,3 +1,6 @@
+YOU STILL NEED TO FIX THE LOOP SO THAT THE MENU LOOPS AFTER EACH SELECTION
+ALSO ENSURE THAT THE  WEEK FOLDER IS WORKING
+
 #!/bin/bash
 
 # MegaMenu.sh - This script takes the result of the passwordCheck.sh to 
