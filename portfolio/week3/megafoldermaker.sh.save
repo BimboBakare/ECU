@@ -5,47 +5,29 @@
 # Date: 03/02/2022
 
 
-#  echo "$#"
+# echo "$#"
 
 var1=$1
 var2=$2
-
-# echo "var 1 is $1 and var 2 is $2"
-# read
-
+echo "variable 2 is $var2"
+var2="" 
+read
 
 # If there aren't two arguments to the script
-if  [[ -z "$var1" || -z "$var2" ]]; then
-
-echo " gracious 1 is $1 and 2 is $2
-read
-fi
 
 if (( $#!=2 )); then
 
     #Print an error and exit
+
     read -p "Error, provide two numbers" var1 var2
-
-else
-
-var1=$1
-var2=$2
-
+  
 fi
-
-echo "Variables are $#"
-echo "Var 1 is $var1"
-echo "Var2 is $var2"
-read
-
-
 
 while (( $var2 < $var1 ))
 
 do
 
  clear
-
  echo "Be smart mate, make second number greater than the first"
  read -p "Enter two numbers Smart Mate" var1 var2
 
@@ -70,18 +52,18 @@ do
     echo "Creating directory number $i"
 
     mkdir "week$i"
-
+    
    mCount=$((mCount+1))
-
+ 
   fi
-
 done
 
-echo -e "Congratulations, $mCount folders have been created for you \n You will now EXIT to MegaMenu "
-
+echo -e "Congratulations, $mCount folders have been created for you \n You will now EXIT to MegaMenu"
 read
-
 ./MegaMenu.sh
+
+exit 0
+
 
 
 #References

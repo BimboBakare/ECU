@@ -12,7 +12,7 @@ read -p "Enter a folder Name: " varFolder
 
 #Folder password is received and hidden from user
 read -sp "Enter Password: " varPassw
-read -sp "Enter Passwor again: " varPassw2
+read -sp "Enter Password again: " varPassw2
 
 
 #tests that the user is sure of the  password entered.
@@ -43,7 +43,11 @@ done
 # hashes the password inputed by User and save in a file
 
 echo "$varPassw" | sha256sum > ./"$varFolder"/secret.txt
+echo "Congratulations, your password has been added to /"$varFolder"/secret.txt"
+echo "You will now be returned to MegaMenu"
+read
 
+./MegaMenu.sh
 
 #command to show the program exited without error
 exit 0

@@ -2,12 +2,14 @@
 # passwordCheck.sh - Check user’s password against the hash stored in 'secret.txt'
 # Author: Bimbo Bakare
 # Date:
-
+# Note: The right password is nancy
 
 # get the password input from User without displaying it
 clear
+
 # Declaring the colours to use
 
+Cyan='\033[0;36m' 
 green='\033[0;32m'
 red='\033[0;31m'
 nc='\033[0m'
@@ -17,19 +19,33 @@ nc='\033[0m'
 printf "${red}"
 read -sp  "Enter password here : " mpassword
 
-echo "$mpassword" | sha256sum -c "./password/secret.txt"
+# check if the file containing the right password exists
 
-printf "${green}"
+if [ ! -f ./password/secret.txt ]; then
 
-   if  test $? -eq 0 ; then
-      echo  "Access Granted"
+   clear
+   echo -e "${Cyan}Please contact your IT Unit"
+   echo -e "Report ${red}ERROR 44${Cyan}"
+   echo -e "You will now exit the  application${nc}"
+   exit 44
+
+fi
+
+echo "$mpassword" | sha256sum -c "./password/secret.txt" &> /dev/null #silencing the output
+
+mval="$?"
+
+
+   if [ $mval = 0 ]; then
+      echo -e  "${green}Access Granted${nc}"
       exit 0
    
    else
-      echo  "Access Denied"
+      echo -e "${red}Access Denied${nc}"
       exit 1
    fi
-printf "${nc}"
+
+
 
 # References:
 # McKnight, R (2022, Feb6). 2.4 Write if statements to control program flow
