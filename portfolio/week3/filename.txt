@@ -4,9 +4,9 @@
       
 doginasuit.jpg 
       
-../week 1 
+../week1 
       
 . 
       
-filenames.sh 
+filename.sh 
      

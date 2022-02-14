@@ -2,6 +2,10 @@
 
 # GuessingGame.sh - script uses the getNumber() function in a number guessing game with the following rules:
 # Author Bimbo Bakare
+# Date 10 Feb 2022
+
+# The right answer is 42
+
 
 clear #clears the screen
 
