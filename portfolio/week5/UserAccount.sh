@@ -6,53 +6,38 @@
 clear
 
 # using the field separator of colon to prints the first field in every line 
-   
-echo "System's Users Home Directory" 
-      
-awk 'BEGIN { 
-      
-    FS=":"; 
-      
-    print "_______________________________________________________________"; 
 
+echo "System's Users Home Directory"
+
+awk 'BEGIN {
+
+    FS=":";
+
+ print "| \033[34mUserName           \033[0m | \033[34mUserID\033[0m |\033[34mGroupID \033[0m | \033[34m Home                              \033[0m | \033[34m Shell           \033[0m |"; 
+
+     print "___________________________________________________________________________________________________";
+
+
+}
+
+{
 
 # Setting the Format - Colours and length
-format = ("| \033[33m%-21s\033[0m | \033[35m%-7s\033[0m | \033[35m%-7s\033[0m | \033[35m%-23s\033[0m| \n")
 
-printf format, "Name", "User ID","User No", "Home Dir" #print Header Row
+printf("|\033[33m%-20s\033[0m | \033[35m%-6s\033[0m |\033[35m%-8s\033[0m | \033[35m%-35s\033[0m | \033[35m%-17s\033[0m |\n", $1, $3, $4, $6, $7);
 
-
-#FIELDWIDTHS="23 10 7 9 15 18 34"
-}
-
-{
-
-if($5!="") # Remove rows where the UserName is Blank
-
-{
-
-#for(i=1;i<=NF-1;i++); #setting file limits
-
-
-#printf("| \033[33m%-21s\033[0m | \033[35m%-7s\033[0m | \033[35m%-7s\033[0m |\033[35m%-23s\033[0m |\n",$5,$1,>
-
-# printing the rows of data
-printf format, $5, $1 , $3, $6;
 
 }
 
-} 
-      
-END { 
-      
-    print("________Bimbo Bakare_______E___N___D_______________________"); 
+END {
+    print "___________________________________________________________________________________________________";
+#end awk by printing footer line
 
-
-
-      
 }' /etc/passwd
-     
 
-     # References:
 
-     # 1. https://www.gnu.org/software/gawk/manual/html_node/Printf-Examples.html
+
+
+
+# References:
+# 1. https://www.gnu.org/software/gawk/manual/html_node/Printf-Examples.html
