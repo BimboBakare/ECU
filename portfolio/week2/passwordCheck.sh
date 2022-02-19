@@ -2,7 +2,7 @@
 # passwordCheck.sh - Check user’s password against the hash stored in 'secret.txt'
 # Author: Bimbo Bakare
 # Date:
-# Note: The right password is nancy
+# Note: The right password is @2022She
 
 # get the password input from User without displaying it
 clear
