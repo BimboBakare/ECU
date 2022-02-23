@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 123456 
       
@@ -28,4 +29,36 @@ nicole
 stuff 
       
 daniel 
+=======
+
+123456 
+      
+12345 
+      
+123456789 
+      
+password 
+      
+iloveyou 
+      
+hello 
+      
+princess 
+      
+1234567 
+      
+rockyou 
+      
+12345678 
+      
+abc123 
+      
+blah 
+      
+nicole 
+      
+stuff 
+      
+daniel 
+>>>>>>> e5fa5d5b524d233f2c5acaaff70733c9214ee2aa
      
