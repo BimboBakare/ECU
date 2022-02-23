@@ -30,31 +30,35 @@ echo -e "${purple}Enter Choice :"
 echo "1. Addition"
 echo "2. Subtraction"
 echo "3. Multiplication"
-echo "4. Division${nc}"
-#echo "Type 'EXIT' to close"
+echo -e "4. Division ${nc}"
+echo "Type 'EXIT' to close"
 read choice
 
-#Make the User to enter a valid Input
-myInput=(1 2 3 4) #Declaring the options available as an array
 
-while [[ ! ${myInput[*]} =~ $choice ]]; 
+if [ ${choice^^} = "EXIT" ]; then
+   echo "You will now return to MegaMenu"
+   read
+   
+   ./MegaMenu.sh
 
-do 
+else
 
-      # Make the User select a choice between 1 and 4
-      read -p "Enter a value between 1 and 4 or type 'EXIT' to close: " choice2
+   #Make the User to enter a valid Input
+   myInput=(1 2 3 4) #Declaring the options available as an array
 
-     choice=$choice2;
+   while [[ ! ${myInput[*]} =~ $choice ]]; 
 
-     if [ ${choice2} = "EXIT" ]; then
-        echo "You will now return to MegaMenu"
-        read
-        ./MegaMenu.sh
-     fi
+   do 
+
+   # Make the User select a choice between 1 and 4
+   read -p "Enter a value between 1 and 4 or type 'EXIT' to close: " choice2
+
+   choice=$choice2;
 
 
-done
+   done
 
+fi
 
 # Switch Case to perform calculator operations
 case $choice in
@@ -78,10 +82,11 @@ esac
 read -p "Press any key to try other numbers or type 'EXIT' to close" mExit
 
 
-     if [ ${mExit} = "EXIT" ]; then
-        echo -e "You will now return to MegaMenu\n"
+     if [ ${mExit^^} = "EXIT" ]; then
+        clear
+        echo -e "You will now return to MegaMenu"
         echo "Thanks for using our calculator"
-        echo "You will now EXIT to MegaMenu"
+        read
 
         ./MegaMenu.sh
 

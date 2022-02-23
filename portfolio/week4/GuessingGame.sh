@@ -28,7 +28,7 @@ do
 
 done
 
-echo "Correct"
+echo "Right"
 
 exit 0
 

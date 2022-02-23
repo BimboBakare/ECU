@@ -44,9 +44,10 @@ then
 
 fi
 
-#check if the file exist in the Directory
+#check if the file exist 
 
-while [ ! -e "$mfilename" ];
+while [ ! -f "$mfilename" ];
+
 do   	
 
     clear
@@ -59,7 +60,8 @@ do
         clear
         echo -e "${purple}Mate, you will now be EXITing this module ${nc}"
         read
-        /.MegaMenu
+
+        ./MegaMenu.sh
         exit 1
 
     fi
@@ -72,7 +74,7 @@ while read line;
 
 do
 
-    myVar=`echo $line | sed 's/*$//g'` # Removes leading and trailing white spaces, if any
+    myVar=$(echo $line | sed 's/*$//g') # Removes leading and trailing white spaces, if any
  
     if [ ! -z "$myVar" ];   # test if not a blank line
     then

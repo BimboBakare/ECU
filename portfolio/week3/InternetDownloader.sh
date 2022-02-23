@@ -32,7 +32,7 @@ then
    clear
    echo "Thanks, you will be quiting now"
    break
-exit 0
+   exit 0
 
 
 # test that a valid URL has been provided

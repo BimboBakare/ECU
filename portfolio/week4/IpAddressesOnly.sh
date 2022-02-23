@@ -4,15 +4,25 @@
 # Author: Bimbo Bakare
 # Date: 10Feb2022
 
+clear
+green='\033[0;32m'
+nc='\033[0m'
 
-# Writes the output of the ipinfo.sh to a file
 
+# Pipes the outut of ipinfo.sh intoo sed to replace IP Address
 
-echo $(./ipinfo.sh > ipadd.txt)
+mIpAddrss=$(echo -e  "$(./ipinfo.sh)"  | sed -n '/IP Address/p' )
 
-# Reads the file with sed and prints out only lines with "IP Address"
+echo -e "Here is the list of your IP Adddresses\n\n"
+echo -e "${green}$mIpAddrss${nc}\n\n"
+echo "Press Enter to Exit"
+read
+clear
+# echo $(./ipinfo.sh > ipadd.txt)
 
-sed -n '/IP Address/p' ipadd.txt
+# # Reads the file with sed and prints out only lines with "IP Address"
+
+# sed -n '/IP Address/p' ipadd.txt
 
 
 exit 0

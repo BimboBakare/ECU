@@ -1,0 +1,505 @@
+						
+DATE ISSUED : 30 Oct 2020 - CRITICALITY>HIGH
+
+Advisory Title : Sustained targeting of the health sector
+
+Warning : The Australian Signals Directorate’s Australian Cyber Security Centre has identified a sustained campaign by sophisticated cybercrime actors impacting the Australian health sector. 
+ 
+DATE ISSUED : 01 Oct 2020 - CRITICALITY>HIGH
+
+Advisory Title : 2019-131a: Emotet malware campaign
+
+Warning : The Australian Signals Directorate’s Australian Cyber Security Centre (ACSC) has observed an ongoing and widespread campaign of malicious emails designed to spread Emotet across a variety of sectors in the Australian economy, including critical infrastructure providers and government agencies.
+ 
+DATE ISSUED : 22 Sep 2020 - CRITICALITY>HIGH
+
+Advisory Title : Netlogon elevation of privilege vulnerability (CVE-2020-1472) 
+
+Warning : The ACSC is aware of a recently disclosed critical vulnerability in Microsoft Active Directory Domain Controller systems that allows unauthenticated attackers to trivially access administrative credentials. 
+ 
+DATE ISSUED : 18 Sep 2020 - CRITICALITY>HIGH
+
+Advisory Title : Active exploitation of vulnerable MobileIron products
+
+Warning : The ACSC is aware of active exploitation of vulnerabilities in multiple MobileIron products by malicious cyber actors, including sophisticated state-based actors.
+ 
+DATE ISSUED : 16 Sep 2020 - CRITICALITY>HIGH
+
+Advisory Title : Copy-paste compromises
+
+Warning : The Australian Government is aware of, and responding to, a sustained targeting of Australian governments and companies by a sophisticated state-based actor. The title ‘Copy-paste compromises’ is derived from the actor’s heavy use of tools copied almost identically from open source.
+ 
+DATE ISSUED : 13 Aug 2020 - CRITICALITY>HIGH
+
+Advisory Title : Phone scams impersonating Australian businesses and government agencies
+
+Warning : Cybercriminals are spoofing Australian mobile numbers and pretending to be from an Australian Government agency, delivery company or business, manipulating the individual to gain access to their device.
+ 
+DATE ISSUED : 02 Aug 2020 - CRITICALITY>CRITICAL
+
+Advisory Title : Ransomware targeting Australian aged care and healthcare sectors
+
+Warning : ACSC is aware of increasing targeting of healthcare, including hospitals and aged care, by ransomware campaigns undertaken by cyber criminals. 
+ 
+DATE ISSUED : 16 Jul 2020 - CRITICALITY>HIGH
+
+Advisory Title : Increasing reports of myGov-related SMS and email scams targeting Australians
+
+Warning : Be on the lookout for myGov-related SMS and email scams asking you to verify your myGov details. 
+ 
+DATE ISSUED : 15 Jul 2020 - CRITICALITY>CRITICAL
+
+Advisory Title : Remote code execution vulnerability in Windows DNS (CVE-2020-1350)
+
+Warning : On 14 July 2020, Microsoft acknowledged a critical remote code execution vulnerability in Windows Domain Name System (DNS), which could allow an adversary to run arbitrary code.
+ 
+DATE ISSUED : 14 Jul 2020 - CRITICALITY>CRITICAL
+
+Advisory Title : Critical vulnerability for SAP NetWeaver Application Server (CVE-2020-6287)
+
+Warning : On 13 July 2020 (United States EST), enterprise resource planning provider SAP released a security patches for a critical vulnerability affecting the Java component LM Configuration Wizard within the SAP NetWeaver Application Server. 
+ 
+DATE ISSUED : 06 Jul 2020 - CRITICALITY>MEDIUM
+
+Advisory Title : TMUI remote code execution vulnerability - CVE-2020-5902
+
+Warning : The ACSC advises users of F5’s enterprise and data centre BIG-IP products to ensure their systems are promptly patched after the recent disclosure of new remote code execution vulnerability.
+ 
+DATE ISSUED : 25 May 2020 - CRITICALITY>HIGH
+
+Advisory Title : DDoS threats being made against Australian organisations
+
+Warning : The Australian Signals Directorate&#039;s Australian Cyber Security Centre (ACSC) is aware of a number of Denial of Service (DoS) for ransom threats being made against Australian organisations, primarily in the banking and finance sector.
+ 
+DATE ISSUED : 22 May 2020 - CRITICALITY>HIGH
+
+Advisory Title : COVID-19 malicious cyber activity
+
+Warning : Malicious cyber actors are actively targeting individuals and Australian organisations with COVID-19 related scams and phishing emails. These incidents are likely to increase in frequency and severity over the coming weeks and months. This is due, in part, to the ease in which existing scam emails and texts can be modified with a COVID-19 theme. 
+ 
+DATE ISSUED : 22 May 2020 - CRITICALITY>HIGH
+
+Advisory Title : Active exploitation of vulnerability in Microsoft Internet Information Services
+
+Warning : The Australian Signals Directorate’s Australian Cyber Security Centre (ACSC) is aware that sophisticated actors are actively exploiting a deserialisation vulnerability existing in all versions of Microsoft’s Internet Information Services (IIS) using the .NET framework (.NET). The vulnerability exploits the service’s VIEWSTATE parameter to allow for remote code execution by unauthorised users.
+ 
+DATE ISSUED : 22 May 2020 - CRITICALITY>HIGH
+
+Advisory Title : 2019-126: Vulnerable version of Telerik UI being actively exploited by APT actor
+
+Warning : The Australian Cyber Security Centre (ACSC) has become aware that Advanced Persistent Threat (APT) actors have been scanning for and attempting exploitation against unpatched versions of Telerik UI for ASP.NET AJAX using publicly available exploits. Successful exploitation could allow an attacker to upload files to the vulnerable server to facilitate further compromise.
+ 
+DATE ISSUED : 20 May 2020 - CRITICALITY>MEDIUM
+
+Advisory Title : Summary of Tradecraft Trends for 2019-20
+
+Warning : The Australian Cyber Security Centre (ACSC) investigated and responded to numerous cyber security incidents during 2019 and 2020 so far.
+ 
+DATE ISSUED : 08 May 2020 - CRITICALITY>HIGH
+
+Advisory Title : Advanced Persistent Threat (APT) actors targeting Australian health sector organisations and COVID-19 essential services
+
+Warning : The Australian Signals Directorate’s (ASD) Australian Cyber Security Centre (ACSC) is aware that Advanced Persistent Threat (APT) actors are actively targeting health sector organisations and medical research facilities. 
+ 
+DATE ISSUED : 16 Apr 2020 - CRITICALITY>HIGH
+
+Advisory Title : Sextortion email campaign impacting Australians
+
+Warning : A large number of Australians are being impacted by an email ‘sextortion’ campaign in which the cyber scammers responsible have threatened to release personal and sensitive information to the recipients’ contacts unless the scammer is paid in cash or bitcoin.
+ 
+DATE ISSUED : 06 Feb 2020 - CRITICALITY>HIGH
+
+Advisory Title : 2020-003: Mailto ransomware incidents
+
+Warning : The Australian Signals Directorate’s Australian Cyber Security Centre (ACSC) is aware of recent ransomware incidents involving a ransomware tool known as ‘Mailto’ or ‘Kazakavkovkiz’. Mailto belongs to the KoKo ransomware family.
+ 
+DATE ISSUED : 29 Jan 2020 - CRITICALITY>HIGH
+
+Advisory Title : Processors can be exploited by Meltdown and Spectre vulnerabilities
+
+Warning : Security researchers have developed methods involving speculative execution to read kernel memory from user space on a variety of processors from a range of vendors produced in the last decade. These methods have been referred to as Meltdown and Spectre.
+ 
+DATE ISSUED : 15 Jan 2020 - CRITICALITY>CRITICAL
+
+Advisory Title : 2020-002: Critical vulnerabilities for Microsoft Windows
+
+Warning : On 15 January 2020 (AEDT), Microsoft released security patches for three critical and one important vulnerabilities in the Microsoft Remote Desktop Client, Remote Desktop Gateway and the Windows operating system. The ACSC recommends that users of these products apply patches urgently to prevent malicious actors from using these vulnerabilities to compromise your network.
+ 
+DATE ISSUED : 13 Jan 2020 - CRITICALITY>CRITICAL
+
+Advisory Title : Active exploitation of critical vulnerability in Citrix Application Delivery Controller and Citrix Gateway
+
+Warning : The Australian Signals Directorate’s Australian Cyber Security Centre (ACSC) is aware of ongoing attempts to exploit a critical vulnerability in Citrix Application Delivery Controller (ADC) (formerly known as NetScaler ADC), Citrix Gateway (formerly known as NetScaler Gateway) and Citrix SD-WAN WANOP.
+ 
+DATE ISSUED : 13 Dec 2019 - CRITICALITY>HIGH
+
+Advisory Title : Australia Post SMS scam targeting Australians
+
+Warning : With millions of parcel deliveries expected around the country, Australia Post is seeing widespread scam text (SMS) messages being sent to people, using their brand.
+ 
+DATE ISSUED : 05 Aug 2019 - CRITICALITY>HIGH
+
+Advisory Title : 2019-130: Password spray attacks
+
+Warning : The Australian Cyber Security Centre (ACSC) is aware of a high volume of ongoing password spray attacks targeting Australian organisations. 
+ 
+DATE ISSUED : 30 Jul 2019 - CRITICALITY>HIGH
+
+Advisory Title : ICS-CERT Alerts
+
+Warning : Link to ICS-CERT alerts from the US Department of Homeland Security
+ 
+DATE ISSUED : 24 Jul 2019 - CRITICALITY>HIGH
+
+Advisory Title : Sextortion campaign
+
+Warning : The Australian Cyber Security Centre (ACSC) is aware of a sextortion scam email campaign targeting the Australian community. 
+ 
+DATE ISSUED : 06 Jun 2019 - CRITICALITY>HIGH
+
+Advisory Title : Microsoft Windows security vulnerability – ‘BlueKeep’ (CVE-2019-0708)
+
+Warning : CVE-2019-0708, also known as ‘BlueKeep’ leaves users open to attack from malicious actors who can exploit a vulnerability via Remote Desktop Services (RDS) on legacy versions of the Windows operating system. 
+ 
+DATE ISSUED : 06 May 2019 - CRITICALITY>MEDIUM
+
+Advisory Title : Microsoft SharePoint CVE-2019-0604
+
+Warning : The ACSC is aware of malicious cyber actors successfully exploiting a Microsoft SharePoint vulnerability in order to implant web shells on compromised hosts.
+ 
+DATE ISSUED : 15 Mar 2019 - CRITICALITY>MEDIUM
+
+Advisory Title : 773M accounts affected by &#039;Collection #1&#039; breach
+
+Warning : The Australian Cyber Security Centre (ACSC) is aware of a significant data breach affecting 773 million email addresses and usernames.
+ 
+DATE ISSUED : 29 Sep 2018 - CRITICALITY>MEDIUM
+
+Advisory Title : Facebook security issue affects 50M user accounts
+
+Warning : The ACSC is aware of a security issue affecting 50 million Facebook user accounts whereby a flaw in the &#039;View As&#039; feature allowed attackers to steal Facebook access tokens, which could be used to take over user&#039;s accounts. Access tokens are the equivalent of digital keys that allow users to remain logged into Facebook.
+ 
+DATE ISSUED : 01 Jul 2018 - CRITICALITY>CRITICAL
+
+Advisory Title : Vulnerability in the Drupal content management system
+
+Warning : The ACSC has become aware of a critical vulnerability in the Drupal content management system. This potentially allows attackers to exploit multiple attack vectors on a Drupal site, which could result in the site being completely compromised.
+ 
+DATE ISSUED : 25 May 2018 - CRITICALITY>HIGH
+
+Advisory Title : VPNFilter malware
+
+Warning : Australian users need to be aware of VPNFilter malware. 
+ 
+DATE ISSUED : 17 Apr 2018 - CRITICALITY>HIGH
+
+Advisory Title : Routers targeted: Cisco Smart Install feature continues to be targeted by Russian state-sponsored actors
+
+Warning : Russian state-sponsored actors are responsible for activity targeting Cisco devices using the Smart Install feature worldwide, including Australia.
+ 
+DATE ISSUED : 15 Nov 2015 - CRITICALITY>HIGH
+
+Advisory Title : Web shells being used as attack vectors on networks
+
+Warning : This alert highlights the frequent use of web shells as an exploitation vector. Web shells can be used to leverage unauthorised access and can lead to wider network compromise. 
+ 
+						
+DATE ISSUED : 23 Feb 2022 - CRITICALITY>HIGH
+
+Advisory Title : Australian organisations encouraged to urgently adopt an enhanced cybersecurity posture
+
+Warning : Australian organisations should urgently adopt an enhanced cybersecurity posture. Entities should follow ACSC advice and act on improving their resilience with the cyber threat heightened. 
+ 
+DATE ISSUED : 12 Feb 2022 - CRITICALITY>CRITICAL
+
+Advisory Title : Critical vulnerability identified in Apple iOS and macOS
+
+Warning : A Remote Code Execution vulnerability has been identified in certain versions of Apple WebKit, affecting iOS and macOS devices. Affected users of these devices should update their devices as soon as possible.
+ 
+DATE ISSUED : 11 Feb 2022 - CRITICALITY>HIGH
+
+Advisory Title : Critical vulnerability present in SAP Internet Communication Manager
+
+Warning : A vulnerability has been identified in SAP Internet Communication Manager (ICM), a component of many SAP products, which may allow full system takeover. Affected organisations should apply the available security update. 
+ 
+DATE ISSUED : 10 Feb 2022 - CRITICALITY>MEDIUM
+
+Advisory Title : Increased Global Ransomware Threats 
+
+Warning : In 2021, cybersecurity authorities in the United States, Australia, and the United Kingdom observed an increase in sophisticated, high-impact ransomware incidents against critical infrastructure organizations globally
+ 
+DATE ISSUED : 04 Feb 2022 - CRITICALITY>HIGH
+
+Advisory Title : Remote code execution vulnerability present in Samba versions prior to 4.13.17
+
+Warning : A vulnerability (CVE-2021-44142) has been identified in Samba versions  prior to 4.13.17. Exploitation of this vulnerability could allow a malicious cyber actor to perform privileged remote code execution. Affected Australian organisations should apply the available patch, including affected software vendors.
+ 
+DATE ISSUED : 19 Jan 2022 - CRITICALITY>HIGH
+
+Advisory Title : Remote code execution vulnerability present in SonicWall SMA 100 series appliances
+
+Warning : A vulnerability (CVE-2021-20038) has been identified in SonicWall SMA 100 series appliances. Exploitation of this vulnerability could allow an unauthenticated malicious cyber actor to perform remote code execution. Affected Australian organisations should apply the available patch.
+ 
+DATE ISSUED : 19 Jan 2022 - CRITICALITY>MEDIUM
+
+Advisory Title : Phone and email scammers impersonating the ACSC
+
+Warning : The Australian government will NEVER phone you to request access to your computer, or request you to purchase cryptocurrencies or gift cards. If you receive a suspicious phone call, take the caller&#039;s details, hang up and contact the company they claim to represent via official communication channels listed on their website. Never call a number provided by the scammer. 
+ 
+DATE ISSUED : 23 Dec 2021 - CRITICALITY>HIGH
+
+Advisory Title : Use of Log4j vulnerabilities in ransomware activity
+
+Warning : The ACSC expects an increase in ransomware activity using Log4j as an exploit vector. Malicious actors may take advantage of trivial exploits to impact Australian organisations.
+ 
+DATE ISSUED : 21 Dec 2021 - CRITICALITY>CRITICAL
+
+Advisory Title : Critical remote code execution vulnerability found in the Log4j library
+
+Warning : A vulnerability (CVE-2021-44228) exists in certain versions of the Log4j library. A malicious cyber actor could exploit this vulnerability to execute arbitrary code. Australian organisations should apply latest patches immediately where Log4j is known to be used. 
+DATE ISSUED : 10 Dec 2021 - CRITICALITY>MEDIUM
+
+Advisory Title : Conti ransomware incidents in Australia
+
+Warning : Multiple Australian organisations have been impacted by Conti ransomware in November and December 2021.
+ 
+DATE ISSUED : 08 Dec 2021 - CRITICALITY>HIGH
+
+Advisory Title : Zoho ManageEngine ServiceDesk Plus &amp; Desktop Central remote code execution vulnerabilities
+
+Warning : Vulnerabilities have been identified in certain versions of Zoho ManageEngine ServiceDesk Plus and Desktop Central product suites. Australian organisations using vulnerable Zoho ManageEngine products should apply the available patch.
+ 
+DATE ISSUED : 17 Nov 2021 - CRITICALITY>CRITICAL
+
+Advisory Title : Iranian Government-Sponsored APT Cyber Actors
+
+Warning : FBI and CISA have observed an Iranian government-sponsored APT group that are exploiting vulnerabilities to gain access to systems. The APT group has exploited the same Microsoft Exchange vulnerability in Australia.
+ 
+DATE ISSUED : 11 Nov 2021 - CRITICALITY>CRITICAL
+
+Advisory Title : Critical vulnerability present in certain versions of Microsoft Excel
+
+Warning : Microsoft has identified active exploitation of a vulnerability in Microsoft Excel. Affected Australian organisations should apply the available security update as soon as possible.
+ 
+DATE ISSUED : 11 Nov 2021 - CRITICALITY>HIGH
+
+Advisory Title : Remote code execution vulnerability present in certain versions of Palo Alto firewalls utilising the GlobalProtect VPN component
+
+Warning : A vulnerability has been identified in certain versions of Palo Alto firewalls utilising the GlobalProtect VPN component. Affected Australian organisations should apply the available update as soon as possible.
+ 
+DATE ISSUED : 05 Nov 2021 - CRITICALITY>CRITICAL
+
+Advisory Title : Active exploitation of vulnerable Sitecore Experience Platform content management systems
+
+Warning : There is active exploitation of a vulnerability occurring in certain versions of Sitecore Experience Platform systems. Affected Australian organisation should apply the available security update.
+ 
+DATE ISSUED : 13 Oct 2021 - CRITICALITY>HIGH
+
+Advisory Title : Critical vulnerability present in certain versions of Apple iOS and iPadOS
+
+Warning : A vulnerability has been identified in certain Apple products which could allow an actor to install malware or perform other actions on a vulnerable device.
+ 
+DATE ISSUED : 13 Oct 2021 - CRITICALITY>HIGH
+
+Advisory Title : Multiple key vulnerabilities identified in Microsoft products
+
+Warning : Multiple key vulnerabilities were identified in Microsoft’s 12 October 2021 patch release. While all vulnerabilities addressed in this release are important to mitigate the ACSC wishes to highlight several vulnerabilities for priority consideration.
+ 
+DATE ISSUED : 08 Oct 2021 - CRITICALITY>CRITICAL
+
+Advisory Title : Critical vulnerability in certain versions of Apache HTTP Server
+
+Warning : A vulnerability exists in Apache HTTP Server 2.4.49. A cyber actor could exploit this vulnerability to execute arbitrary code. Initial information also indicates that the vulnerability could also be used perform remote code execution under certain configurations. Affected Australian organisations should apply the available patch.
+ 
+DATE ISSUED : 24 Sep 2021 - CRITICALITY>HIGH
+
+Advisory Title : Critical vulnerability in ManageEngine ADSelfService Plus exploited by cyber actors
+
+Warning : A vulnerability exists in certain versions of ManageEngine ADSelfService Plus. A cyber actor could exploit this vulnerability to execute arbitrary code, potentially enabling the actor to take control of the vulnerable host. Affected Australian organisations should apply the available security update.
+ 
+DATE ISSUED : 22 Sep 2021 - CRITICALITY>CRITICAL
+
+Advisory Title : Critical vulnerability in certain Hikvision products, IP cameras
+
+Warning : A critical vulnerability exists in Hikvision products, including IP cameras, which could allow a cyber actor to take full control of the device. Affected Australian customers should apply an appropriate firmware update provided by Hikvision.
+ 
+DATE ISSUED : 16 Sep 2021 - CRITICALITY>HIGH
+
+Advisory Title : Remote code execution vulnerability present in the Windows Scripting Engine of Microsoft Windows
+
+Warning : A vulnerability exists in a component of Microsoft Windows. A malicious cyber actor could exploit this vulnerability to execute arbitrary code, potentially enabling the actor to take control of the vulnerable host. Affected Australian customers should apply the security update provided by Microsoft.
+ 
+DATE ISSUED : 16 Sep 2021 - CRITICALITY>CRITICAL
+
+Advisory Title : Remote code execution vulnerability present in Open Management Infrastructure, affects certain Microsoft Azure services
+
+Warning : A remote code execution vulnerability exists in Open Management Infrastructure, a management agent used in certain Linux-based Microsoft Azure services. Exploitation of this vulnerability could allow a malicious actor to take control of the vulnerable host. Affected organisations should apply the available security update.
+ 
+DATE ISSUED : 14 Sep 2021 - CRITICALITY>HIGH
+
+Advisory Title : Remote code execution vulnerability present in the MSHTML component of Microsoft Windows
+
+Warning : A vulnerability exists in a component of Microsoft Windows. A malicious cyber actor could exploit this vulnerability to execute arbitrary code, potentially enabling the actor to take control of the vulnerable host. At this current time there is no patch available, affected Australian customers should apply the Microsoft recommended workarounds.
+ 
+DATE ISSUED : 14 Sep 2021 - CRITICALITY>HIGH
+
+Advisory Title : Critical vulnerabilities present in certain versions of Apple iOS, macOS and Safari
+
+Warning : Vulnerabilities have been identified in certain versions of Apple iOS, macOS and Safari which could allow an actor to install malware or perform other actions on a vulnerable device or computer.
+ 
+DATE ISSUED : 10 Sep 2021 - CRITICALITY>MEDIUM
+
+Advisory Title : Suspected user credentials stolen from FortiNet devices leaked online
+
+Warning : A malicious cyber actor has leaked a list of suspected user credentials and IP address of the associated FortiNet SSL VPN device the credentials are used for. Organisations should review the patch status and history of internet exposed FortiNet SSL VPN devices and consider performing a password reset for affected users.
+ 
+DATE ISSUED : 01 Sep 2021 - CRITICALITY>HIGH
+
+Advisory Title : Remote code execution vulnerability present in certain versions of Atlassian Confluence
+
+Warning : A vulnerability exists in certain self-hosted versions of Atlassian Confluence which could allow a malicious cyber actor to execute arbitrary code. Affected organisations should apply the available patch to mitigate this vulnerability.
+ 
+DATE ISSUED : 30 Aug 2021 - CRITICALITY>MEDIUM
+
+Advisory Title : Property-related business email compromise scams rising in Australia
+
+Warning : Cybercriminals are targeting the property and real estate sector to conduct business email compromise scams. All parties involved in the buying, selling and leasing of property should be vigilant when communicating via email, particularly during settlement periods.
+ 
+DATE ISSUED : 27 Aug 2021 - CRITICALITY>MEDIUM
+
+Advisory Title : Malicious actors deploying Gootkit Loader on Australian Networks
+
+Warning : ACSC has observed an increase of Gootkit JavaScript (JS) Loaders on Australian networks.
+ 
+DATE ISSUED : 19 Aug 2021 - CRITICALITY>HIGH
+
+Advisory Title : Microsoft Exchange ProxyShell Targeting in Australia
+
+Warning : The ACSC has observed targeting of the Microsoft Exchange ProxyShell vulnerability by Malicious actors.
+ 
+DATE ISSUED : 18 Aug 2021 - CRITICALITY>HIGH
+
+Advisory Title : Vulnerability Affecting BlackBerry QNX RTOS
+
+Warning : BlackBerry has disclosed that its QNX Real Time Operating System is affected by a BadAlloc vulnerability - CVE-2021-22156. QNX is the world’s most prevalent real time operating system. 
+ 
+DATE ISSUED : 05 Aug 2021 - CRITICALITY>MEDIUM
+
+Advisory Title : LockBit 2.0 ransomware incidents in Australia
+
+Warning : ACSC has observed an increase in reporting of LockBit 2.0 ransomware incidents in Australia.
+ 
+DATE ISSUED : 03 Aug 2021 - CRITICALITY>HIGH
+
+Advisory Title : SonicWall devices targeted with ransomware utilising stolen credentials
+
+Warning : SonicWall devices are being targeted by a malicious cyber actor as targets for ransomware. The ACSC is aware of likely related activity targeting Australian organisations.
+ 
+DATE ISSUED : 12 Jul 2021 - CRITICALITY>HIGH
+
+Advisory Title : Kaseya VSA Supply-Chain Ransomware Attack
+
+Warning : Patch now available for Kaseya VSA platform.
+ 
+DATE ISSUED : 07 Jul 2021 - CRITICALITY>HIGH
+
+Advisory Title : ForgeRock Open AM critical vulnerability
+
+Warning : The ACSC has observed active exploitation of a vulnerability in ForgeRock OpenAM (reported as CVE-2021-35464) against a number of Australian organisations. The ACSC strongly recommends organisations urgently apply available patches or workarounds to mitigate the risk of this vulnerability being exploited.
+ 
+DATE ISSUED : 06 Jul 2021 - CRITICALITY>MEDIUM
+
+Advisory Title : Cybercriminals targeting construction companies to conduct email scams 
+
+Warning : Cybercriminals are targeting construction companies to conduct business email compromise scams. All parties to construction projects should be vigilant when emailing about invoices and bank details.
+ 
+DATE ISSUED : 30 Jun 2021 - CRITICALITY>LOW
+
+Advisory Title : Microsoft Releases Security Updates for Microsoft Edge Browser
+
+Warning : On June 24, 2021 Microsoft released updates for their Edge Browser addressing two vulnerabilities that an attacker could exploit to inject and execute malicious code.
+ 
+DATE ISSUED : 21 Jun 2021 - CRITICALITY>HIGH
+
+Advisory Title : Google Releases Security Updates for Chrome Browser
+
+Warning : On June 17, 2021 Google released Chrome version 91.0.4472.114 for Windows, Mac, and Linux. The patch notes for this version can be viewed at Chrome Release Note. 
+ 
+DATE ISSUED : 13 May 2021 - CRITICALITY>HIGH
+
+Advisory Title : Critical vulnerability discovered in HTTP.SYS in Microsoft Windows
+
+Warning : A remote code execution vulnerability could enable a malicious cyber actor to compromise vulnerable Microsoft Windows hosts. The ACSC strongly recommends applying available patches.
+ 
+DATE ISSUED : 10 May 2021 - CRITICALITY>HIGH
+
+Advisory Title : Multiple high severity vulnerabilities discovered in the Exim mail server
+
+Warning : Exim vulnerabilities could enable a malicious cyber actor to compromise vulnerable Exim servers. The ACSC strongly recommends applying available patches.
+ 
+DATE ISSUED : 08 May 2021 - CRITICALITY>HIGH
+
+Advisory Title : Avaddon Ransomware
+
+Warning : Increase in Avaddon ransomware attacks in Australia.
+ 
+DATE ISSUED : 27 Apr 2021 - CRITICALITY>HIGH
+
+Advisory Title : Potential exploitation of Click Studio’s PasswordState software
+
+Warning : On 24 April 2021, Australian software company Click Studios announced a compromise of the software update process for their enterprise password management software PasswordState, used by organisations in Australia and globally.
+ 
+DATE ISSUED : 21 Apr 2021 - CRITICALITY>HIGH
+
+Advisory Title : Exploitation of Pulse Connect Secure Vulnerabilities
+
+Warning : New advice for mitigating Pulse Connect Secure Virtual Private Network (VPN) vulnerabilities
+ 
+DATE ISSUED : 15 Apr 2021 - CRITICALITY>CRITICAL
+
+Advisory Title : Exchange server critical vulnerabilities
+
+Warning : On 2 March 2021 Microsoft released information regarding multiple exploits being used to compromise instances of Microsoft Exchange Server. Malicious actors are exploiting these vulnerabilities to compromise Microsoft Exchange servers exposed to the internet, enabling access to email accounts and to enable further compromise of the Exchange server and associated networks.
+ 
+DATE ISSUED : 03 Apr 2021 - CRITICALITY>HIGH
+
+Advisory Title : APT exploitation of Fortinet Vulnerabilities
+
+Warning : Advanced Persistent Threat actors targeting historic Fortinet vulnerabilities
+ 
+DATE ISSUED : 25 Feb 2021 - CRITICALITY>HIGH
+
+Advisory Title : Potential Accellion File Transfer Appliance compromise
+
+Warning : ACSC identified Australian organisations may have been impacted the Accellion File Transfer Appliance vulnerability and has provided mitigation recommendations.
+ 
+DATE ISSUED : 25 Feb 2021 - CRITICALITY>HIGH
+
+Advisory Title : VMware vCenter Server plugin remote code execution vulnerability (CVE-2021-21972)
+
+Warning : The Australian Signals Directorate’s Australian Cyber Security Centre (ACSC) advises users of VMware vCenter Server products, including as part of VMware Cloud Foundation, to ensure their systems are promptly patched after the recent disclosure of a new remote code execution vulnerability.
+ 
+DATE ISSUED : 16 Feb 2021 - CRITICALITY>HIGH
+
+Advisory Title : Malware targeting Centreon software
+
+Warning : ANSSI identifies campaign targeting Centreon system monitoring software
+ 
+DATE ISSUED : 04 Feb 2021 - CRITICALITY>HIGH
+
+Advisory Title : SonicWall Breach
+
+Warning : SonicWall identified an internal systems breach using a zero-day vulnerability within the SMA 100 series 10.x code.
+ 
+DATE ISSUED : 25 Jan 2021 - CRITICALITY>HIGH
+
+Advisory Title : Potential SolarWinds Orion compromise
+
+Warning : FireEye identifies global campaign leveraging malicious updates to SolarWinds software.
+ 
+DATE ISSUED : 12 Nov 2020 - CRITICALITY>HIGH
+
+Advisory Title : SDBBot targeting health sector
+
+Warning : The ACSC has observed increased targeting activity against the Australian health sector by actors using the SDBBot Remote Access Tool (RAT).
+ 

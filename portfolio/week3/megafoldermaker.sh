@@ -19,10 +19,15 @@ var2=$2
 
 # If there aren't two arguments to the script
 
-if (( $#!=2 )); then
+if [ $# -ne 3 ]; then  #Note that when this is called from the MegaMenu, this becomes 3 and not 2
 
-   echo -e "${red}Error, provide two numbers ${nc}" 
-   read var1 var2
+   echo -e "${red}Error, provide two numbers seperated by tab key ${nc}" 
+   read mstring
+
+   # Removing any input of ,or. orspace between the two numbers
+   mstring=$(echo "$mstring"  | sed 's/[,. ]/ /g')
+
+   IFS=" " read var1 var2 <<< $mstring #turns the string into variables
 
 fi
 

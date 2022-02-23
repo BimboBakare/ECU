@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# MegaMenu.sh - This script takes the result of the passwordCheck.sh to 
-# ask the user to make further selections
+# MegaMenu.sh -   This script takes the result of the passwordCheck.sh to 
+#                 ask the user to make further selections
 # Author: Bimbo Bakare
 # Date: 07Feb2022
 
@@ -23,7 +23,7 @@ nc='\033[0m'
 
 if [ ! -f passwordCheck.sh ]; then
 
-   mcode=25
+   "mcode"=25
    echo -e " The program has encountered an ERROR \n Contact your IT support state ${BRed}Code $mcode${nc}"
    echo " This program  will now exit"
    exit 25

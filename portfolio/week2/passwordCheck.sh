@@ -1,7 +1,7 @@
 #!/bin/bash
 # passwordCheck.sh - Check user’s password against the hash stored in 'secret.txt'
 # Author: Bimbo Bakare
-# Date:
+# Date: 24Jan2022
 # Note: The right password is nancy
 
 # get the password input from User without displaying it
@@ -19,7 +19,7 @@ nc='\033[0m'
 printf "${red}"
 read -sp  "Enter password here : " mpassword
 
-# check if the file containing the right password exists
+# check if the passwordfile containing the hash exists
 
 if [ ! -f ./password/secret.txt ]; then
 
@@ -31,10 +31,10 @@ if [ ! -f ./password/secret.txt ]; then
 
 fi
 
+# hashes the suplied password and compare with passwordfile
 echo "$mpassword" | sha256sum -c "./password/secret.txt" &> /dev/null #silencing the output
 
 mval="$?"
-#printf "${green}"
 
    if [ $mval = 0 ]; then
       echo -e  "${green}Access Granted${nc}"
@@ -47,6 +47,6 @@ mval="$?"
 printf "${nc}"
 
 # References:
-# McKnight, R (2022, Feb6). 2.4 Write if statements to control program flow
+# McKnight, R (2022, Feb 06). 2.4 Write if statements to control program flow
 # https://blackboard.ecu.edu.au/webapps/blackboard/execute/displayLearningUnit?course_id=_662967_1&content_id=_8274249_1
 
