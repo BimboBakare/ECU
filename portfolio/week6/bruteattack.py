@@ -1,5 +1,5 @@
 #!/usr/bin/python3 
-# bruteattack.py - python script for dbruteforce attack using combinations of letters in the alphabet and numbers
+# bruteattack.py - python script for dbruteforce attack using combinations of letters in the alphabet & numbers
 # Author Bimbo Bakare
 # Date 22Feb2022
 
